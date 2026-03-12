@@ -17,7 +17,7 @@ services:
         value: production
 
   # Frontend Static Site
-  - type: static
+  - type: static_site
     name: hospital-frontend
     env: static
     plan: free
