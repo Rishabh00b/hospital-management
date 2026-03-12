@@ -30,9 +30,8 @@ services:
         fromService:
           name: hospital-backend
           type: web
-          property: host
-        # Note: Render will inject the actual host URL here.
-        # You might need to add /api/patients manually in code or config.
+          property: url
+        # Note: Render will inject the actual service URL here.
     routes:
       - type: rewrite
         source: /*
